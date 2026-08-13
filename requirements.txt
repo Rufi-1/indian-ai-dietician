@@ -1,0 +1,14 @@
+streamlit
+transformers
+torch
+sentence-transformers
+chromadb
+deep-translator
+accelerate
+pysqlite3-binary
+groq
+huggingface_hub
+streamlit-authenticator
+streamlit-lottie
+requests
+gTTS
