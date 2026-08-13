@@ -1,15 +1,19 @@
-# 🩺 MediLingo — Healthcare Language Assistant
+# 🥗 Indian-AI Dietician
 
-An AI-powered healthcare assistant that converts complex medical terminology into simple, understandable language for patients.
+A multilingual, voice-enabled AI Dietician built for the Indian demographic — generating culturally relevant, medically safe diet plans aligned with ICMR/NIN guidelines.
 
 ## 📋 Problem Statement
-Medical reports and terminology are often difficult for patients to understand, creating communication barriers and reducing healthcare accessibility.
+Most AI dietary tools are trained on Western datasets and recommend unfamiliar, expensive ingredients. They're also English-only and text-only. Indian-AI Dietician addresses this with regional-language voice support and diet plans built around affordable Indian staples.
 
 ## ✨ Features
-- Simplifies complex medical terminology into plain language
-- Multilingual output — English and Hindi, in both written and audio form
-- AI-powered processing using the Gemini API
-- User-friendly, accessible interface
+- Diet plans aligned to ICMR & NIN guidelines — Cardiac, PCOS, Diabetes, Hypertension, Pregnancy
+- Multilingual voice & text interaction: English, Hindi, Kannada, Telugu, Tamil
+- Speech-to-text via Whisper Large V3, text-to-speech via gTTS
+- AI recommendations via Groq-hosted Llama 3.3 (70B)
+- Secure bcrypt authentication, persistent JSON-based chat history
 
 ## 🛠️ Tech Stack
-Python · SQL · Gemini API · Streamlit
+Python · Streamlit · Groq API (Llama-3.3-70B) · Whisper Large V3 · Google Translate API · gTTS · bcrypt · JSON
+
+## 👩‍💻 Author
+**Rufi Aiman** — rufaiaman7790@gmail.com — [GitHub](https://github.com/Rufi1)
